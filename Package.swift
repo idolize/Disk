@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Disk",
-    platforms: [.iOS(.v9)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(name: "Disk", targets: ["Disk"])
     ],
